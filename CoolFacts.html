@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+						<!-- Cool Facts Page -->
+			<!-- Note Resolution may differ from Monitor and Browsers -->
+			<!-- Please do use full screen browser and avoid split screens -->
 <html>
 	<head>
 		<title>Cool Facts</title>
@@ -29,7 +32,7 @@
 				color: cyan;
 			}
 			
-			div.contents {
+			#contents {
 				background-color: rgba(209, 174, 153, 0.5);
 				width: 200px;
 				
@@ -67,10 +70,26 @@
 				margin-top: 100px;
 				background-color: rgba(213, 169, 142, 0.4);
 			}
+			
+			.backtop {
+				text-align: center;
+				margin-top: 60px;
+			}
+			
+			#maintitle {
+				text-align: center;
+				font-size: 50px;
+				font-family: monospace;
+				color: rgb(139,69,19);
+				text-decoration: underline;
+			
+			}
 		</style>
 	</head>
 		<!-- All the contents are visible for User -->
 	<body>
+	
+		<h1 id="maintitle">Cool Facts</h1>
 		<!-- Navigation using Table -->
 	  	  
 	  <table id="Navigation">
@@ -80,7 +99,7 @@
 	  	 <th><a class="navbar" href="https://bit.ly/2FsTe0i" target="_blank">The Woods</a></th>
 	  	 <th><a class="navbar" href="https://bit.ly/2USAbDm" target="_blank">The Paradise</a></th>
 	  	 <th><a class="navbar" href="https://bit.ly/2FxOnfD" target="_blank">The Deep Sea</a></th>
-	  	 <th><a class="navbar" href="">Cool Facts</a></th>
+	  	 <th><a class="navbar" href="https://bit.ly/2UbV5kx">Cool Facts</a></th>
 	  	 	
 	  	</tr>
 	  	 
@@ -89,11 +108,12 @@
 	
 	 <!-- Contents -->
 	 
-	 <div class="contents">
+	 <div id="contents">
 	 	<h2>Contents</h2>
 	 	<ul>
 	 	<li class="content_text"><a href="#bird">Bird Evolution</a></li>
 	    <li class="content_text"><a href="">Shark Evolution</a></li>
+		<li class="content_text"><a href=""></a></li>
 
 	 	</ul>
 	 </div>
@@ -101,46 +121,62 @@
 	 
 	 
 	 <div id="bird">
-	 	<h2 class="subtit">Bird Evolution</h2>
-	 	<a href="https://bit.ly/2HbrJY2" target="_blank"><img class="imagefix" src="https://bit.ly/2FTNsqg" alt="birds"></a>
+			<h2 class="subtit">Bird Evolution</h2>
+			<a href="https://bit.ly/2HbrJY2" target="_blank"><img class="imagefix" src="https://bit.ly/2FTNsqg" alt="birds"></a>
 	 	
-	 	<!-- Bird Evolution paragraph & Pictures-->
-	 	<p class="paragraph">The discovery that birds evolved from small carnivorous dinosaurs of the Late Jurassic 
-	 	was made possible by recently discovered fossils from China, South America, and other countries, 
-	 	as well as by looking at old museum specimens from new perspectives and with new methods. 
-	 	The hunt for the ancestors of living birds began with a specimen of Archaeopteryx, the first known bird, 
-	 	discovered in the early 1860s. Like birds, it had feathers along its arms and tail, but unlike living birds, 
-	 	it also had teeth and a long bony tail. Furthermore, many of the bones in Archaeopteryx's hands, shoulder girdles, 
-	 	pelvis, and feet were distinct, not fused and reduced as they are in living birds. Based on these characteristics, 
-	 	Archaeopteryx was recognized as an intermediate between birds and reptiles; but which reptiles?<br><br><img class="imagefix" src="https://bit.ly/2UtxgUA" alt="bird specimen">
-	 	<strong>In the 1970s, paleontologists noticed that Archaeopteryx shared unique features with small carnivorous dinosaurs called theropods.</strong>
-	 	All the dinosaur groups on this evogram, except the ornithischian dinosaurs, are theropods. 
-	 	Based on their shared features, scientists reasoned that perhaps the theropods were the ancestors of birds. 
-	 	When paleontologists built evolutionary trees to study the question, they were even more convinced. 
-	 	The birds are simply a twig on the dinosaurs' branch of the tree of life.<br><br><br>Take feathers, for example. Small theropods related to Compsognathus 
-	 	(e.g., Sinosauropteryx) probably evolved the first feathers. These short, hair-like feathers grew on their heads, necks, and bodies and provided insulation. 
-	 	The feathers seem to have had different color patterns as well, although whether these were for display, camouflage, species recognition, or another function is difficult to tell.
-	 	<br><br><br><img class="imagefix" src="https://bit.ly/2OJs75x" alt="bird specimen">In theropods even more closely related to birds, like the oviraptorosaurs, we find several new types of feathers. 
-	 	One is branched and downy, as pictured below. Others have evolved a central stalk, with unstructured branches coming off it and its base. Still others (like the dromaeosaurids and Archaeopteryx) 
-	 	have a vane-like structure in which the barbs are well-organized and locked together by barbules. This is identical to the feather structure of living birds.
-	 	<br><br><br><img class="imagefix" src="https://bit.ly/2I48zYp" alt="Feathers">Another line of evidence comes from changes in the digits of the dinosaurs leading to birds. The first theropod dinosaurs had hands 
-	 	with small fifth and fourth digits and a long second digit. As the evogram shows, in the theropod lineage that would eventually lead to birds, the fifth digit (e.g., as seen in Coelophysoids) and then the fourth 
-	 	(e.g., as seen in Allosaurids) were completely lost. The wrist bones underlying the first and second digits consolidated and took on a semicircular form that allowed the hand to rotate sideways against the forearm. 
-	 	This eventually allowed birds' wing joints to move in a way that creates thrust for flight.<br><br><br><img class="imagefix" src="https://bit.ly/2WJGSIu">
-	 	The functions of feathers as they evolved have long been debated. As we have seen, the first, simplest, hair-like feathers obviously served an insulatory function.
-	 	But in later theropods, such as some oviraptorosaurs, the feathers on the arms and hands are long, even though the forelimbs themselves are short. What did these animals do with long feathers on short arms? 
-	 	One suggestion comes from some remarkable fossils of oviraptorosaurs preserved in the Cretaceous sediments of the Gobi Desert. The skeleton of the animal is hunched up on a nest of eggs, like a brooding chicken. 
-	 	The hands are spread out over the eggs as if to shelter them. So perhaps these feathers served the function of warming the eggs and shielding them from harm.<br><br><br>Birds after Archaeopteryx continued evolving 
-	 	in some of the same directions as their theropod ancestors. Many of their bones were reduced and fused, which may have helped increase the efficiency of flight. Similarly, the bone walls became even thinner, 
-	 	and the feathers became longer and their vanes asymmetrical, probably also improving flight. The bony tail was reduced to a stump, and a spray of feathers at the tail eventually took on the function of improving stability and maneuverability. 
-	 	The wishbone, which was present in non-bird dinosaurs, became stronger and more elaborate, and the bones of the shoulder girdle evolved to connect to the breastbone, anchoring the flight apparatus of the forelimb. The breastbone itself became larger, 
-	 	and evolved a central keel along the midline of the breast which served to anchor the flight muscles. The arms evolved to be longer than the legs, as the main form of locomotion switched from running to flight, and teeth were lost repeatedly in various 
-	 	lineages of early birds. The ancestor of all living birds lived sometime in the Late Cretaceous, and in the 65 million years since the extinction of the rest of the dinosaurs, this ancestral lineage diversified into the major groups of birds alive today.</p>
-	 	<!-- End of Birth Evolution -->
+			<!-- Bird Evolution paragraph & Pictures-->
+			<p class="paragraph">The discovery that birds evolved from small carnivorous dinosaurs of the Late Jurassic 
+			was made possible by recently discovered fossils from China, South America, and other countries, 
+			as well as by looking at old museum specimens from new perspectives and with new methods. 
+			The hunt for the ancestors of living birds began with a specimen of Archaeopteryx, the first known bird, 
+			discovered in the early 1860s. Like birds, it had feathers along its arms and tail, but unlike living birds, 
+			it also had teeth and a long bony tail. Furthermore, many of the bones in Archaeopteryx's hands, shoulder girdles, 
+			pelvis, and feet were distinct, not fused and reduced as they are in living birds. Based on these characteristics, 
+			Archaeopteryx was recognized as an intermediate between birds and reptiles; but which reptiles?<br><br><img class="imagefix" src="https://bit.ly/2UtxgUA" alt="bird specimen">
+			<strong>In the 1970s, paleontologists noticed that Archaeopteryx shared unique features with small carnivorous dinosaurs called theropods.</strong>
+			All the dinosaur groups on this evogram, except the ornithischian dinosaurs, are theropods. 
+			Based on their shared features, scientists reasoned that perhaps the theropods were the ancestors of birds. 
+			When paleontologists built evolutionary trees to study the question, they were even more convinced. 
+			The birds are simply a twig on the dinosaurs' branch of the tree of life.<br><br><br>Take feathers, for example. Small theropods related to Compsognathus 
+			(e.g., Sinosauropteryx) probably evolved the first feathers. These short, hair-like feathers grew on their heads, necks, and bodies and provided insulation. 
+			The feathers seem to have had different color patterns as well, although whether these were for display, camouflage, species recognition, or another function is difficult to tell.
+			<br><br><br><img class="imagefix" src="https://bit.ly/2OJs75x" alt="bird specimen">In theropods even more closely related to birds, like the oviraptorosaurs, we find several new types of feathers. 
+			One is branched and downy, as pictured below. Others have evolved a central stalk, with unstructured branches coming off it and its base. Still others (like the dromaeosaurids and Archaeopteryx) 
+			have a vane-like structure in which the barbs are well-organized and locked together by barbules. This is identical to the feather structure of living birds.
+			<br><br><br><img class="imagefix" src="https://bit.ly/2I48zYp" alt="Feathers">Another line of evidence comes from changes in the digits of the dinosaurs leading to birds. The first theropod dinosaurs had hands 
+			with small fifth and fourth digits and a long second digit. As the evogram shows, in the theropod lineage that would eventually lead to birds, the fifth digit (e.g., as seen in Coelophysoids) and then the fourth 
+			(e.g., as seen in Allosaurids) were completely lost. The wrist bones underlying the first and second digits consolidated and took on a semicircular form that allowed the hand to rotate sideways against the forearm. 
+			This eventually allowed birds' wing joints to move in a way that creates thrust for flight.<br><br><br><img class="imagefix" src="https://bit.ly/2WJGSIu">
+			The functions of feathers as they evolved have long been debated. As we have seen, the first, simplest, hair-like feathers obviously served an insulatory function.
+			But in later theropods, such as some oviraptorosaurs, the feathers on the arms and hands are long, even though the forelimbs themselves are short. What did these animals do with long feathers on short arms? 
+			One suggestion comes from some remarkable fossils of oviraptorosaurs preserved in the Cretaceous sediments of the Gobi Desert. The skeleton of the animal is hunched up on a nest of eggs, like a brooding chicken. 
+			The hands are spread out over the eggs as if to shelter them. So perhaps these feathers served the function of warming the eggs and shielding them from harm.<br><br><br>Birds after Archaeopteryx continued evolving 
+			in some of the same directions as their theropod ancestors. Many of their bones were reduced and fused, which may have helped increase the efficiency of flight. Similarly, the bone walls became even thinner, 
+			and the feathers became longer and their vanes asymmetrical, probably also improving flight. The bony tail was reduced to a stump, and a spray of feathers at the tail eventually took on the function of improving stability and maneuverability. 
+			The wishbone, which was present in non-bird dinosaurs, became stronger and more elaborate, and the bones of the shoulder girdle evolved to connect to the breastbone, anchoring the flight apparatus of the forelimb. The breastbone itself became larger, 
+			and evolved a central keel along the midline of the breast which served to anchor the flight muscles. The arms evolved to be longer than the legs, as the main form of locomotion switched from running to flight, and teeth were lost repeatedly in various 
+			lineages of early birds. The ancestor of all living birds lived sometime in the Late Cretaceous, and in the 65 million years since the extinction of the rest of the dinosaurs, this ancestral lineage diversified into the major groups of birds alive today.</p>
+	</div>
+	 <!-- End of Birth Evolution -->
+	 <!-- Navigation back to the contens -->
+	<a href="#maintitle"><h2 class="backtop">Top</h2></a>
 	 
-	 </div>
-	 
+	 <!-- Types of Shark -->
+	<div id="shark">
+			<h2 class="subtit">Shark in the Dinosour Age</h2>
+			<a href="https://bit.ly/2HbrJY2" target="_blank"><img class="imagefix" src="https://bit.ly/2YOQoMm" alt="birds"></a>
+			<p clas="paragraph">The megalodon, which went extinct millions of years ago, was the largest shark ever documented and one of the largest fish on record. The scientific name, Carcharocles megalodon, means "giant tooth." And for good reason: Its massive 
+			teeth give scientists major clues about what the creature was like and when it died off.</p>
+			<h2 class="subtit">When the megaldoon went to extinct?</h2>
+			<p class="paragraph">While a 2018 popular movie, "The Meg," pits modern humans against the beast, more than likely, the megalodon died out before humans evolved. It is difficult to pinpoint the exact date that the megalodon went extinct, because the fossil record is incomplete.
+			<br><br><br>In 2014, a research group at the University of Zurich studied megalodon fossils using a technique called optimal linear estimation, to determine their age. Their research, published in the journal PLOS ONE, found that most of the fossils date back to the middle Miocene 
+			epoch to the Pliocene epoch (15.9 million to 2.6 million years ago). All signs of the creature's existence ended 2.6 million years ago in the current fossil record, the authors wrote. For comparison, our earliest Homo sapiens ancestors emerged only 2.5 million years ago, during the 
+			Pleistocene epoch, according to the University of California Museum of Paleontology.</p>
+	</div>
+	<!-- End Shark History -->
 	
+	<!-- Navigation back to the contens -->
+	<a href="#maintitle"><h2 class="backtop">Top</h2></a>
 	</body>
 
 </html>
